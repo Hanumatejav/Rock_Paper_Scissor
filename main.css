@@ -1,0 +1,45 @@
+
+body
+{
+    background-color: #FFE5B4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.choiceBtn
+{
+    line-height: 30px;
+    width: 150px;
+    font-family: cursive;
+    font-weight:lighter;
+    font-size: 15px;
+    color: #000000;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+#gameDiv
+{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 50px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#playerText
+{
+    color: blue;
+}
+
+#computerText
+{
+    color: red;
+}
